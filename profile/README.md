@@ -5,7 +5,7 @@
 
 ## 🚀 Sobre a LAWD
 
-A LAWD é uma entidade estudantil da Universidade Federal de Sergipe (UFS), vinculada ao Departamento de Computação (DCOMP). Nosso foco é fortalecer o conhecimento dos alunos em desenvolvimento web, abrangendo as mais diversas possibilidades do desenvolvimento WEB.
+A LAWD é uma entidade estudantil da Universidade Federal de Sergipe (UFS), vinculada ao Departamento de Computação (DCOMP). Nosso foco é consolidar conhecimento através de atividades de pesquisa, ensino e extensão, abrangendo as mais diversas possibilidades dentro do contexto do Desenvolvimento WEB.
 
 ## 📅 Atividades
 
