@@ -1,7 +1,5 @@
 # Liga Acadêmica de Desenvolvimento Web (LAWD) 🌐
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![UFS](https://img.shields.io/badge/university-UFS-red)
 ![DCOMP](https://img.shields.io/badge/department-DCOMP-blue)
 
