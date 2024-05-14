@@ -11,9 +11,9 @@ A LAWD é uma entidade estudantil da Universidade Federal de Sergipe (UFS), vinc
 
 ## 📅 Atividades
 
-- **Cursos e Workshops:** Oferecemos formações em tecnologias como HTML, CSS, JavaScript, React, e Node.js.
-- **Desenvolvimento de Projetos:** Incentivamos a criação de projetos que solucionem problemas reais, proporcionando experiência prática.
-- **Eventos de Networking:** Organizamos eventos para conectar estudantes com profissionais da área.
+- **Cursos e Workshops:** Oferecemos capacitações que passam por várias áreas do desenvolvimento WEB através de projetos práticos aliados à um bom embasamento teórico.
+- **Desenvolvimento de Projetos:** Incentivamos a criação de projetos que solucionem problemas reais, proporcionando uma experiência performática e ao mesmo tempo distinta a nossos clientes e parceiros.
+- **Eventos de Networking:** Organizamos eventos para conectar estudantes com profissionais da área e incentivar a criação de conexões para o ambiente profissional e acadêmico.
 
 ## 🤝 Como Participar
 
