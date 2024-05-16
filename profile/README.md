@@ -20,6 +20,6 @@ Para se juntar à LAWD, fique sempre atento à divulgação dos processos seleti
 
 ## 📞 Contato
 
-- **E-mail:** [lawd@ufs.br](mailto:lawd@dcomp.ufs.br)
+- **E-mail:** [lawd@dcomp.ufs.br](mailto:lawd@dcomp.ufs.br)
 - **Instagram:** [Siga-nos](@lawd.ufs)
 
