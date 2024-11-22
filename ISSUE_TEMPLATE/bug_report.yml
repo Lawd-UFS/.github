@@ -1,0 +1,50 @@
+name: "Reportar Bug"
+description: "Use este template para relatar um problema ou erro encontrado."
+title: "[BUG] Descrição do problema"
+labels:
+  - bug
+assignees:
+  - ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um problema! Por favor, forneça o máximo de informações possíveis para nos ajudar a reproduzir e corrigir o erro.
+
+  - type: textarea
+    attributes:
+      label: Descrição do Bug
+      description: "Explique o que está acontecendo e por que isso é um problema."
+      placeholder: "Quando tento salvar, recebo um erro dizendo 'Falha ao conectar'."
+
+  - type: textarea
+    attributes:
+      label: Passos para Reproduzir
+      description: "Liste as etapas para reproduzir o problema."
+      placeholder: |
+        1. Acesse a página de perfil
+        2. Preencha o campo 'Nome'
+        3. Clique em 'Salvar'
+        4. Veja o erro
+
+  - type: input
+    attributes:
+      label: Comportamento Esperado
+      description: "Descreva o comportamento esperado quando não houver erro."
+      placeholder: "As alterações devem ser salvas com sucesso."
+
+  - type: input
+    attributes:
+      label: Ambiente
+      description: "Informe o ambiente onde o problema ocorre (navegador, sistema operacional, etc.)."
+      placeholder: "Exemplo: Chrome v95 no Windows 10"
+
+  - type: dropdown
+    attributes:
+      label: Prioridade
+      description: "Quão crítico é este problema?"
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Crítica
