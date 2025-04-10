@@ -1,0 +1,123 @@
+name: "📝 História de Usuário"
+description: "Use este template para criar uma nova história de usuário."
+title: "[US000] Título da História"
+labels:
+  - user-story
+assignees:
+  - ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # História de Usuário
+        Por favor, preencha todos os campos para criar uma história de usuário clara e completa.
+
+  - type: input
+    id: user-story-number
+    attributes:
+      label: Número da US
+      description: "Número identificador da história de usuário"
+      placeholder: "001"
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Papel
+      description: "Quem é o usuário que realizará esta ação?"
+      placeholder: "participante"
+    validations:
+      required: true
+
+  - type: input
+    id: action
+    attributes:
+      label: Ação
+      description: "O que o usuário quer fazer?"
+      placeholder: "me inscrever no evento"
+    validations:
+      required: true
+
+  - type: input
+    id: benefit
+    attributes:
+      label: Benefício
+      description: "Qual o benefício/objetivo desta ação?"
+      placeholder: "garantir minha vaga"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        A história será formatada como: "Como **[papel]**, quero **[ação]** para **[benefício]**"
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Critérios de Aceitação
+      description: "Liste todos os critérios que devem ser atendidos para considerar esta história completa"
+      placeholder: |
+        - [ ] Formulário de inscrição com campos específicos
+        - [ ] Validação dos dados de entrada
+        - [ ] Confirmação por email
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical-requirements
+    attributes:
+      label: Requisitos Técnicos
+      description: "Especifique os requisitos técnicos necessários para implementação"
+      placeholder: |
+        - Banco de dados: Tabelas e campos necessários
+        - APIs: Endpoints a serem criados
+        - Integrações necessárias
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Complexidade
+      description: "Avalie a complexidade técnica desta história"
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Muito Alta
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade do Negócio
+      description: "Defina a prioridade desta história para o negócio"
+      options:
+        - Baixa
+        - Média
+        - Alta
+        - Muito Alta
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Informações Adicionais
+      description: "Inclua qualquer informação adicional relevante para esta história"
+      placeholder: |
+        - Mockups/Protótipos
+        - Regras de negócio específicas
+        - Dependências de outras histórias
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist de Qualidade
+      description: "Confirme que a história atende aos critérios básicos"
+      options:
+        - label: Critérios de aceitação são testáveis
+        - label: Requisitos técnicos estão claros
+        - label: Dependências foram identificadas
+        - label: História está independente o suficiente para ser implementada
