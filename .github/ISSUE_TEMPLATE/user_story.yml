@@ -1,6 +1,6 @@
 name: "📝 História de Usuário"
 description: "Use este template para criar uma nova história de usuário."
-title: "[US000] Título da História"
+title: "[US<us-code>] <us-name>"
 labels:
   - user-story
 assignees:
@@ -13,13 +13,28 @@ body:
         Por favor, preencha todos os campos para criar uma história de usuário clara e completa.
 
   - type: input
-    id: user-story-number
+    id: us-code
     attributes:
-      label: Número da US
+      label: Código da US
       description: "Número identificador da história de usuário"
       placeholder: "001"
     validations:
       required: true
+
+  - type: input
+    id: us-name
+    attributes:
+      label: Nome da US
+      description: "Nome curto e descritivo da história de usuário"
+      placeholder: "realizar cadastro"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        O título será gerado como: "[US<us-code>] <us-name>"
+        Exemplo: "[US001] Realizar Cadastro"
 
   - type: input
     id: role
