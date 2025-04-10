@@ -15,43 +15,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
+        # Descrição da História de Usuário
+        Escreva a descrição no seguinte formato:
+        Como **papel**, quero **ação** para **benefício**.
 
-  - type: input
-    id: role
+  - type: textarea
+    id: user-story-description
     attributes:
-      label: Papel
-      description: "Quem é o usuário que realizará esta ação?"
-      placeholder: "participante"
-    validations:
-      required: true
-
-  - type: input
-    id: action
-    attributes:
-      label: Ação
-      description: "O que o usuário quer fazer?"
-      placeholder: "me inscrever no evento"
-    validations:
-      required: true
-
-  - type: input
-    id: benefit
-    attributes:
-      label: Benefício
-      description: "Qual o benefício/objetivo desta ação?"
-      placeholder: "garantir minha vaga"
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Descrição
-        
-        Como **{{ role }}**, quero **{{ action }}** para **{{ benefit }}**
-        
-        ---
+      label: Descrição
+      description: "Descreva a História de Usuário"
+      placeholder: |
+        Como **participante**, quero **me inscrever no evento** para **garantir a minha vaga**.
+      validations:
+        required: true
 
   - type: textarea
     id: acceptance-criteria
