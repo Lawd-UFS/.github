@@ -12,29 +12,10 @@ body:
         # História de Usuário
         Por favor, preencha todos os campos para criar uma história de usuário clara e completa.
 
-  - type: input
-    id: us-code
-    attributes:
-      label: Código da US
-      description: "Número identificador da história de usuário"
-      placeholder: "001"
-    validations:
-      required: true
-
-  - type: input
-    id: us-name
-    attributes:
-      label: Nome da US
-      description: "Nome curto e descritivo da história de usuário"
-      placeholder: "Realizar Cadastro"
-    validations:
-      required: true
-
   - type: markdown
     attributes:
       value: |
-        O título será gerado como: "[US<us-code>] <us-name>"
-        Exemplo: "[US001] Realizar Cadastro"
+        ---
 
   - type: input
     id: role
@@ -66,7 +47,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        A história será formatada como: "Como **[papel]**, quero **[ação]** para **[benefício]**"
+        ## Descrição
+        
+        Como **{{ role }}**, quero **{{ action }}** para **{{ benefit }}**
+        
+        ---
 
   - type: textarea
     id: acceptance-criteria
