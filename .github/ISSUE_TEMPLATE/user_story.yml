@@ -26,7 +26,7 @@ body:
     attributes:
       label: Nome da US
       description: "Nome curto e descritivo da história de usuário"
-      placeholder: "realizar cadastro"
+      placeholder: "Realizar Cadastro"
     validations:
       required: true
 
