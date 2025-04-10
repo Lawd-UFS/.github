@@ -26,6 +26,8 @@ body:
       description: "Descreva a História de Usuário"
       placeholder: |
         Como **participante**, quero **me inscrever no evento** para **garantir a minha vaga**.
+      value: |
+        Como **participante**, quero **me inscrever no evento** para **garantir a minha vaga**.
     validations:
       required: true
 
